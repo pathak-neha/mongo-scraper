@@ -1,24 +1,23 @@
 {
-  "name": "mongoose_skeleton",
+  "name": "mongo-2-scraper",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "watch": "nodemon server.js"
+    "start": "node server.js"
   },
-  "author": "Neha Pathak",
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
   "dependencies": {
+    "axios": "^0.18.0",
     "body-parser": "^1.18.3",
     "cheerio": "^1.0.0-rc.2",
-    "eslint": "^5.6.1",
-    "express": "^4.16.3",
+    "express": "^4.16.4",
     "express-handlebars": "^3.0.0",
-    "mongoose": "^5.3.0",
+    "mongoose": "^5.3.8",
+    "morgan": "^1.9.1",
     "request": "^2.88.0",
-    "router": "^1.3.3"
-  },
-  "devDependencies": {}
+    "sync-request": "^6.0.0"
+  }
 }
